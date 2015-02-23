@@ -155,6 +155,6 @@ $sounds = array(
 	27 => array(
 		'file' => 'moi-je-vous-le-dis',
 		'color' => random_color(),
-		'description' => "Moi je vous le dit"
+		'description' => "Moi je vous le dis"
 	)
 );
