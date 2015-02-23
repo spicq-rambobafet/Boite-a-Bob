@@ -1,5 +1,13 @@
 <?php
 
+/*
+ * Projet : Boite à Bob
+ * Version : 1.1
+ * Auteur : Bob
+ * URL : http://rambobafet.fr/boite-a-bob/
+ * 
+ */
+
 function random_color_part() {
     return str_pad( dechex( mt_rand( 0, 255 ) ), 2, '0', STR_PAD_LEFT);
 }

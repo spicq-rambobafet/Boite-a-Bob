@@ -6,46 +6,61 @@
 */
 
 body{
-	font-size: 18px;
-	font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 article{
-	color: #fff;
-	text-shadow: 0px 0px 5px #000;
-	cursor: pointer;
-	min-height: 50px;
-	height: 15vh;
-	position: relative;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+    cursor: pointer;
+    min-height: 50px;
+    height: 15vh;
+    position: relative;
 }
 
 article:hover{
-	-webkit-box-shadow: inset 0px 0px 40px #fff;
-	-moz-box-shadow: inset 0px 0px 40px #fff;
-	box-shadow: inset 0px 0px 40px #fff;
+    -webkit-box-shadow: inset 0px 0px 40px #fff;
+    -moz-box-shadow: inset 0px 0px 40px #fff;
+    box-shadow: inset 0px 0px 40px #fff;
 }
 
 article p{
-	display: inline-block;
-	margin-top: 3.5vh;
-	width: 100%;
-	left: 0;
+    display: inline-block;
+    margin-top: 3.5vh;
+    width: 100%;
+    left: 0;
 }
 
 h1{
-	float: left;
+    float: left;
 }
 
 #slider{
-	float: right;
-	width: 200px;
-	margin-right: 40px;
-	margin-top: 25px;
-	display: none;
+    float: right;
+    width: 200px;
+    margin-right: 40px;
+    margin-top: 25px;
+    display: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+footer table td{
+    vertical-align: middle;
+    padding: 15px;
+    height: 50px;
+}
+
+footer table td.twitter{
+    padding-top: 24px;
 }
 
 @media (min-width: 768px) {
-	#slider{
-		display: block;
-	}
+    #slider{
+        display: block;
+    }
 }
