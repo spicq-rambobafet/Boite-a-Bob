@@ -14,9 +14,9 @@ article{
     color: #fff;
     text-shadow: 0px 0px 5px #000;
     cursor: pointer;
-    min-height: 50px;
-    height: 15vh;
+    height: 90px;
     position: relative;
+    display: block;
 }
 
 article:hover{
@@ -62,5 +62,10 @@ footer table td.twitter{
 @media (min-width: 768px) {
     #slider{
         display: block;
+    }
+
+    article{
+        min-height: 50px;
+        height: 15vh;
     }
 }
